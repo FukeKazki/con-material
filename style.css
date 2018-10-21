@@ -1,0 +1,170 @@
+/* CSS Document */
+/*layout*/
+body{
+	background: #efefef;
+}
+.mc{
+/*	width: 1000px;*/
+/*	margin: 0 auto;*/
+}
+
+/*com*/
+img{
+	max-width: 100%;
+	height: auto;
+}
+.slide{
+	margin: 5px auto 0 auto;
+}
+.log h3{
+	text-align: center;
+}
+.about h3{
+	text-align: center;
+}
+.gallery h3{
+	text-align: center;
+}
+.info h3{
+	text-align: center;
+}
+.links h3{
+	text-align: center;
+}
+.about .card-title{
+	text-align: center;
+	padding: 20px;
+}
+.about .card-image{
+	overflow: hidden;
+}
+.about .card-image img{
+	display: block;
+	transition-duration: 0.3s;
+}
+.about .card-image img:hover{
+	transform: scale(1.1);
+	transition-duration: 0.3s;
+}
+footer{
+	color: #ffffff;
+}
+.footer-copyright{
+	text-align: center;
+}
+footer .container{
+	padding: 20px;
+}
+#log,#about,#gallery,#info,#links{
+	padding-top: 70px;
+	margin-top: -70px;
+}
+.info .contact{
+	text-align: center;
+	padding: 20px;
+}
+/*style*/
+/*pc*/
+@media screen and (min-width:481px){
+	.brand-logo p {
+		padding-left: 10px;
+	}
+
+	.slick-slider{
+		width: 800px;
+		margin: 0 auto;
+	}
+	.log{
+		margin: 0 auto;
+		width: 1000px;
+	}
+	.about{
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.about-top{
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.games{
+		width: 480px;
+		float: left;
+		margin-right: 20px;
+	}
+	.softwares{
+		width: 480px;
+		float: left;
+	}
+	.procon{
+		width: 480px;
+		margin: 0 auto;
+	}
+	.gallery{
+		width: 1000px;
+		margin: 0 auto;
+	}
+/*
+	.gallery-1{
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.gallery-1 img{
+		width: 30%;
+		float: left;
+		margin: 5px;
+	}
+*/
+	.info{
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.info .map{
+		width: 480px;
+		float: left;
+		margin-right: 20px;
+	}
+	.info .contact{
+		width: 480px;
+		height: 450px;
+		float: left;
+	}
+	.links{
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.link-procon{
+		width: 480px;
+		float: left;
+		margin-right: 20px;
+	}
+	.twitter{
+		width: 480px;
+		float: left;
+	}
+}
+/*smart*/
+@media screen and (max-width:480px){
+	.log{
+		margin: 0 auto;
+		width: 90%;
+	}
+	.about{
+		margin: 0 auto;
+		width: 90%;
+	}
+	.gallery{
+		margin: 0 auto;
+		width: 90%;
+	}
+	.info{
+		margin: 0 auto;
+		width: 90%;
+	}
+	.links{
+		margin: 0 auto;
+		width: 90%;
+	}
+	.map iframe{
+		width: 100%;
+	}
+}
