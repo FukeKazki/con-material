@@ -1,7 +1,11 @@
 /* CSS Document */
+/*font*/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|M+PLUS+Rounded+1c');
 /*layout*/
 body{
 	background: #efefef;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 .mc{
 /*	width: 1000px;*/
