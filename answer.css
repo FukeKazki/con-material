@@ -1,0 +1,14 @@
+@media screen and (min-width:481px){
+	body{
+		background: #ddd;
+	}
+	.mc{
+		width: 1200px;
+		margin: 0 auto;
+		background: #ddd;
+	}
+	.answers{
+		margin: 0 auto;
+		text-align: center;
+	}
+}
