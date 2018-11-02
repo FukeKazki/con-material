@@ -1,6 +1,13 @@
 .page-footer{
 	padding: 2em;
 }
+.message{
+	padding: 2em;
+}
+.message h3{
+	text-align: center;
+	font-size: 85%;
+}
 @media screen and (min-width:481px){
 	body{
 		background: #ddd;
@@ -14,9 +21,17 @@
 		margin: 0 auto;
 		text-align: center;
 	}
+	.quizs{
+		margin: 0 auto;
+		width: 1000px;
+	}
 }
 @media screen and (max-width:480px){
 	body{
 		background: #ddd;
+	}
+	.mc{
+		width: 90%;
+		margin: 0 auto;
 	}
 }
